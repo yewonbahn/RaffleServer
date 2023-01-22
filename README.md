@@ -1,27 +1,31 @@
-# Raffle
-![NFT_Ranks_Logo](https://user-images.githubusercontent.com/63235104/213915672-2ecfb140-5893-49fc-bbd6-52ebb20b6f95.png)
-
-
+# NFT Ranks - Server 
+[NFT Ranks git book](https://team-raffle.gitbook.io/nftranks-eng/)
+<img src="https://user-images.githubusercontent.com/63235104/213915731-98a7d9ba-42f7-4057-9aac-1cd94ab2642f.png"  width="800" height="380">
+          
 NFT Ranks analyzes users' Ethereum wallets to provide indicators of users' assets and shares users' NFT reliability scores to NFT projects and businesses. 
 Through this, we expect to create a healthier NFT/DAO ecosystem.
 Based on your metrics, NFT reliability score is divided into three stages based on your wallet's portfolio.
 
 Level metrics represent the transparency and reliability of the wallet owner's transactions, allowing NFT projects and businesses to find candidates for participation (ex. whitelist) on a more solid basis. By whitelisting validated users, NFT projects can further enhance the value of the project.
 
+1. Paper (lower 10%) 
+2. General 
+3. Diamond Hands (Top 30%)
+
+## Overview
+![Landing_1024](https://user-images.githubusercontent.com/63235104/213915969-721ad2c8-9913-4a89-8a82-e153dbeb33ce.png)
 
 
-1.Paper (lower 10%) 
-2.General 
-3.Diamond Hands (Top 30%)
+
+## Getting Started
+
+- npm i
+- npm i -g yarn
+- cd/raffle_server
+- yarn dev or yarn start 
 
 
-처음 git pull 이후 실행시 
-```npm i```
-```npm i -g yarn```
-로 디펜던시 다운 후 raffle_server 파일안에 들어가서
-yarn dev 또는 yarn start 실행하면 됨
-
-파일구조 MVP
+## 파일구조 MVP
 ```D:\NodeJs\RaffleServer\raffle_web\README.md
 src\
  |--config\         # Environment variables and configuration related things
