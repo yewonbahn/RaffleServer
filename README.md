@@ -1,5 +1,19 @@
-# RaffleServer
-Server for Raffle
+# Raffle
+![NFT_Ranks_Logo](https://user-images.githubusercontent.com/63235104/213915672-2ecfb140-5893-49fc-bbd6-52ebb20b6f95.png)
+
+
+NFT Ranks analyzes users' Ethereum wallets to provide indicators of users' assets and shares users' NFT reliability scores to NFT projects and businesses. 
+Through this, we expect to create a healthier NFT/DAO ecosystem.
+Based on your metrics, NFT reliability score is divided into three stages based on your wallet's portfolio.
+
+Level metrics represent the transparency and reliability of the wallet owner's transactions, allowing NFT projects and businesses to find candidates for participation (ex. whitelist) on a more solid basis. By whitelisting validated users, NFT projects can further enhance the value of the project.
+
+
+
+1.Paper (lower 10%) 
+2.General 
+3.Diamond Hands (Top 30%)
+
 
 처음 git pull 이후 실행시 
 ```npm i```
