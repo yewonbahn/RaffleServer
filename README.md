@@ -1,5 +1,8 @@
 # NFT Ranks - Server 
 [NFT Ranks git book](https://team-raffle.gitbook.io/nftranks-eng/)
+
+기술 스택 : Node.js, AWS S3 스토리지, Red shift, Opensea API, Moralis API, Maria DB
+
 <img src="https://user-images.githubusercontent.com/63235104/213915731-98a7d9ba-42f7-4057-9aac-1cd94ab2642f.png"  width="800" height="380">
           
 NFT Ranks analyzes users' Ethereum wallets to provide indicators of users' assets and shares users' NFT reliability scores to NFT projects and businesses. 
@@ -15,9 +18,11 @@ Level metrics represent the transparency and reliability of the wallet owner's t
 ## Overview
 ![Landing_1024](https://user-images.githubusercontent.com/63235104/213915969-721ad2c8-9913-4a89-8a82-e153dbeb33ce.png)
 
-
+## RDB structure (Erd cloud)
+![20220504215428](https://user-images.githubusercontent.com/63235104/214282170-e0b74ad6-2053-4622-8c3d-4a866089eb9e.png)
 
 ## Getting Started
+
 
 - npm i
 - npm i -g yarn
